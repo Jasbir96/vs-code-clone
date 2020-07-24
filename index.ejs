@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VS Code</title>
+	<link rel="stylesheet" href="./node_modules/jquery-ui-dist/jquery-ui.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+	<link rel="stylesheet" href="./node_modules/xterm/css/xterm.css" />
+	<link rel="stylesheet" href="xtermmy.css">
+	<link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="top-bar">
+			<div class="btn-container">
+				<button id="new" class="btn green">new</button>
+				<button id="save" class="btn ">save</button>
+			</div>
+			<div id="tabs" class="tab-container">
+				<ul></ul>
+			</div>
+		</div>
+		<div id="main-window">
+			<div id="explorer-window">
+				<div id="content"></div>
+			</div>
+			<div id="editor-terminal-window">
+				<div id="text-editor"></div>
+				<div class="terminal-container">
+					<div id="terminal">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<script src="./node_modules/xterm/lib/xterm.js"></script>
+	<script src="./index.js"></script>
+</body>
+
+</html>
